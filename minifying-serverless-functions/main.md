@@ -7,7 +7,7 @@ The goal of “minifying” a serverless function is not about frontend minifica
 
 ---
 
-![header](images/lambda-fatty-slim.svg)
+![header](images/lambdas-fatty-slim.svg)
 
 ## Comparison of Deployment Strategies
 
