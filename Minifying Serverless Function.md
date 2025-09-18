@@ -30,7 +30,7 @@ Below are three **Dockerfile variants**, each representing one approach. The dif
 ```dockerfile
 # Step 1: Build stage
 FROM node:18 AS build
-WORKDIR /integration-v1-function-assessment
+WORKDIR /project-directory
 
 # Copy package manifests
 COPY package*.json ./
@@ -51,8 +51,8 @@ FROM public.ecr.aws/lambda/nodejs:18
 WORKDIR /var/task
 
 # Copy full dist and node_modules (bloated)
-COPY --from=build /integration-v1-function-assessment/dist/ ./dist/
-COPY --from=build /integration-v1-function-assessment/node_modules ./node_modules
+COPY --from=build /project-directory/dist/ ./dist/
+COPY --from=build /project-directory/node_modules ./node_modules
 
 # Entry point
 CMD ["dist/index.handler"]
