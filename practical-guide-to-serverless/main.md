@@ -214,10 +214,4 @@ It’s clean, cost-friendly, and future-proof.
 
 ---
 
-💡 Next steps: expand this template with CI/CD pipelines and real-world services.  
-
-
-
----
-
-💡 I’ll keep refining this repo with real-world services, adding CI/CD pipelines, and experimenting with function layers. If you try it out, let me know how it goes!
+💡 If you try it out, let me know how it goes!
