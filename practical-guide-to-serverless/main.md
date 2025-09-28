@@ -210,7 +210,7 @@ This evolved structure turned a messy experiment into a template I can reuse. Wi
 
 It’s clean, cost-friendly, and future-proof.  
 
-🔗 [Check out the full source code here](./)  
+🔗 [Check out the full source code here](https://github.com/ahmed-elborollosy/nodejs-serverless-project-template)
 
 ---
 
